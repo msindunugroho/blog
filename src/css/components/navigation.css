@@ -156,3 +156,15 @@ nav .nav_action li:last-child {
     display: none;
   }
 }
+
+/* laptop */
+@media screen and (min-width: 769px) {
+  nav .nav_header a.nav_logo {
+    width: 50px;
+  }
+
+  .nav_bar .nav_link a,
+  .nav_bar .nav_link a {
+    font-size: 22px;
+  }
+}
