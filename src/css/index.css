@@ -1,0 +1,74 @@
+:root {
+    /* font-family */
+    --ff-poppins: font-family: "Poppins", sans-serif;
+    
+    /* font-size */
+    /* laptop */
+
+    --fs-h1-l: ;
+    --fs-p-t:15px;
+    --fs-p-m:13px;
+
+    /* color */
+    /* grey */
+    --grey-clr-1: #222;
+    --grey-clr-2: #4444;
+    --grey-clr-3: #6666;
+    --grey-clr-4: #8888;
+    --grey-clr-5: #bbbb;
+    --grey-clr-6: #dddd;
+    /* blue */
+    --blue-clr-1: #00c8ff; 
+    --blue-clr-2: #3bcff8; 
+    --blue-clr-3: #61DAFB;  /*main*/
+    --blue-clr-4: #a8eafc;
+    --blue-clr-5: #cdf4ff;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding: unset;
+  margin: unset;
+  border: unset;
+  outline: unset;
+}
+
+/* mobile */
+@media screen and (max-width: 425px) {
+  /* headding */
+  h1{font-size: 24px;}
+  h2{font-size: 20px;}
+  h3{font-size: 18px;}
+  h4{font-size: 16px;}
+  h5{font-size: 14px;}
+  h6{font-size: 12px;}
+  /* paragraph */
+  p{font-size: 14px;}
+}
+
+/* tablet */
+@media screen and (min-width: 426px) {
+  /* headding */
+  h1{font-size: 32px;}
+  h2{font-size: 28px;}
+  h3{font-size: 24px;}
+  h4{font-size: 20px;}
+  h5{font-size: 18px;}
+  h6{font-size: 16px;}
+  /* paragraph */
+  p{font-size: 16px;}
+}
+
+
+/* laptop */
+@media screen and (min-width: 769px) {
+  /* headding */
+  h1{font-size: 36px;}
+  h2{font-size: 32px;}
+  h3{font-size: 28px;}
+  h4{font-size: 24px;}
+  h5{font-size: 22px;}
+  h6{font-size: 20px;}
+  /* paragraph */
+  p{font-size: 18px;}
+}
