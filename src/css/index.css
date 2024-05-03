@@ -1,4 +1,7 @@
 @import url('./components/navigation.css');
+@import url('./components/main.css');
+@import url('./components/carousel.css');
+
 :root {
     /* font-family */
     --ff-poppins: font-family: "Poppins", sans-serif;
@@ -12,10 +15,10 @@
 
     /* color */
     /* grey */
-    --grey-clr-1: rgb(34, 34, 34);
-    --grey-clr-2: #4444;
-    --grey-clr-3: #6666;
-    --grey-clr-4: #8888;
+    --grey-clr-1: #222222;
+    --grey-clr-2: #333333;
+    --grey-clr-3: #444444;
+    --grey-clr-4: #555555;
     --grey-clr-5: #bbbb;
     --grey-clr-6: #dddd;
     /* blue */

@@ -1,0 +1,11 @@
+main {
+    margin-top: 60px;
+    background: var(--grey-clr-3);
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 425px) {
+    main section#carousel {
+        padding: 50px 20px;
+    }
+}
