@@ -36,3 +36,32 @@ section#carousel .carousel_desc .carousel_action {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width:426px) {
+    section#carousel .container {
+        gap: 50px;
+    }
+    section#carousel .carousel_desc {
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width:769px) {
+    section#carousel .container {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    section#carousel .container .carousel_image{
+        flex: 1;
+    }
+    section#carousel .carousel_image .carousel_vector-img {
+        width: auto;
+    }
+    section#carousel .container .carousel_desc {
+        flex: 1;
+    }
+    section#carousel .carousel_desc .carousel_action {
+        justify-content: flex-start;
+    }
+}
