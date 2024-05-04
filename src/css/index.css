@@ -37,6 +37,9 @@
   border: unset;
   /* outline: 1px solid red; */
 }
+body {
+  font-family: var(--ff-poppins);
+}
 .hidden {
   display: none;
 }

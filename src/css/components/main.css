@@ -6,6 +6,6 @@ main {
 
 @media screen and (max-width: 425px) {
     main section#carousel {
-        padding: 50px 20px;
+        padding: 30px 20px;
     }
 }
