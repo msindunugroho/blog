@@ -58,3 +58,10 @@
     outline: 1.5px solid var(--blue-clr-1);
     color:  var(--blue-clr-5);
   }
+
+  @media screen and (min-width: 769px) {
+    .btn-1,
+    .btn-2 {
+      padding: 8px;
+    }
+  }

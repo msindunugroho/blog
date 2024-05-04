@@ -2,12 +2,14 @@
 @import url('./components/main.css');
 @import url('./components/button.css');
 @import url('./components/carousel.css');
+@import url('./components/articles.css');
 
 :root {
     /* font-family */
-    --ff-poppins: font-family: "Poppins", sans-serif;
+    --ff-poppins: "Poppins", sans-serif;
     /* color */
     /* grey */
+    --grey-clr-darker-1: rgb(20, 20, 20);
     --grey-clr-1: rgb(34, 34, 34);
     --grey-clr-2: #333333;
     --grey-clr-3: #444444;

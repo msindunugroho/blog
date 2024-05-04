@@ -1,6 +1,7 @@
 section#carousel {
     width: 100%;
     background: rgba(0, 200, 255, 0.3);
+    color: var(--grey-clr-1);
 }
 section#carousel .container {
     height: 100%;

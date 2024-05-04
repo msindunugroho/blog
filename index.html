@@ -10,22 +10,18 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./src/css/index.css">
-    <!-- <google-font> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- google icon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     </style>
   </head>
   <body>
-    <nav>
-      <div class="nav_container">
-        <div class="nav_header">
-          <a href="" class="nav_logo">
+    <!-- <navigation> -->
+      <nav>
+        <div class="nav_container">
+          <div class="nav_header">
+            <a href="" class="nav_logo">
             <img src="./public/blog-logo.png" alt="">
           </a>
           <ul class="nav_bar">
@@ -34,7 +30,7 @@
             </li>
             <li class="nav_link"><a href="#">
               <span class="material-symbols-outlined">home_app_logo</span>Home</a></li>
-            <li class="nav_link"><a href="#">
+              <li class="nav_link"><a href="#">
               <span class="material-symbols-outlined">newsstand</span>Article</a></li>
           </ul>
         </div>
@@ -45,17 +41,22 @@
         </ul>
       </div>
     </nav>
-    <main>
-      <section id="carousel">
-        <div class="container">
-          <div class="carousel_image">
-            <div class="carousel_vector-img">
-              <img src="./public/assets/img/carousel-vector.png" alt="">
-            </div>
-          </div>
-          <div class="carousel_desc">
-            <h1>Lorem ipsum dolor sit.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quas enim voluptas minima molestiae accusamus quidem asperiores iusto assumenda? Hic explicabo ipsa porro iure! Blanditiis?</p>
+    <!-- </navigation> -->
+
+    <!-- <main> -->
+      <main>
+
+        <!-- <carousel> -->
+          <section id="carousel">
+            <div class="container">
+              <div class="carousel_image">
+                <div class="carousel_vector-img">
+                  <img src="./public/assets/img/carousel-vector.png" alt="">
+                </div>
+              </div>
+              <div class="carousel_desc">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta quas enim voluptas minima molestiae accusamus quidem asperiores iusto assumenda? Hic explicabo ipsa porro iure! Blanditiis?</p>
             <div class="carousel_action">
               <a href="" class="btn-1 blue-outline grey-bg">Lorem, ipsum</a>
               <a href="" class="btn-2 ">Lorem, ipsum</a>
@@ -63,7 +64,73 @@
           </div>
         </div>
       </section>
+      <!-- </carousel> -->
+
+      <article>
+        <div class="container">
+          <div class="title">
+            <h1>lorem ipsum dolor sit amet</h1>
+          </div>
+          <div class="articles">
+            <!-- <card> -->
+            <a href="" class="article_card" data-title="html">
+              <img src="./public/assets/img/html-bg-min.png" alt="">
+              <div class="desc">
+                <div class="desc_title">
+                  <div class="desc-title-img_wrapper">
+                    <img src="./public/assets/img/html-logo.png" alt="">
+                  </div>
+                  <h3>HTML</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </a>
+
+            <a href="" class="article_card" data-title="css">
+              <img src="./public/assets/img/css-bg-min.png" alt="">
+              <div class="desc">
+                <div class="desc_title">
+                  <div class="desc-title-img_wrapper">
+                    <img src="./public/assets/img/css-logo.png" alt="">
+                  </div>
+                  <h3>CSS</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </a>
+
+            <a href="" class="article_card" data-title="javascript">
+              <img src="./public/assets/img/js-bg-min.png" alt="">
+              <div class="desc">
+                <div class="desc_title">
+                  <div class="desc-title-img_wrapper">
+                    <img src="./public/assets/img/javascript-logo.png" alt="">
+                  </div>
+                  <h3>HTML</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </a>
+
+            <a href="" class="article_card" data-title="git">
+              <img src="./public/assets/img/html-bg-min.png" alt="">
+              <div class="desc">
+                <div class="desc_title">
+                  <div class="desc-title-img_wrapper">
+                    <img src="./public/assets/img/html-logo.png" alt="">
+                  </div>
+                  <h3>HTML</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </a>
+            <!-- </card> -->
+          </div>
+        </div>
+      </article>
+
     </main>
+    <!-- </main> -->
 
     <!-- script -->
     <script type="module" src="./src/js/app.js"></script>

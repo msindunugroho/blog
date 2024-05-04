@@ -1,0 +1,99 @@
+/* 
+html: #e44d26;
+css: #1572b6;
+javascript: #f7df1e;
+sass: #cd6799;
+node js: #cd6799;
+react js: #00d8ff;
+webpack: #8ed6fb; 
+git: #f34f29;
+github: #ffffff;
+*/
+article .container {
+  display: flex;
+  flex-direction: column;
+}
+article .container .articles {
+  min-width: 250px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 5vw;
+}
+article .articles .article_card{
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--grey-clr-1);
+  position: relative;
+}
+article .articles .article_card:hover > img{
+  filter: blur(1px);
+  transform: scale(1.3);
+}
+article .article_card > img {
+  transition: var(--transition);
+  width: 100%;
+}
+article .article_card .desc {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  color: var(--grey-clr-6);
+  background-image: linear-gradient(to bottom, transparent, var(--grey-clr-darker-1), var(--grey-clr-darker-1));
+}
+article .desc .desc_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+article .article_card .desc-title-img_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+/* html card */
+article .article_card[data-title="html"] {
+  border-top: 2px solid rgb(228, 76, 38);
+  border-bottom: 2px solid rgb(228, 76, 38);
+}
+article .article_card[data-title="html"] .desc-title-img_wrapper {
+  background: rgba(228, 76, 38, 0.5);
+  outline: 7px solid rgba(228, 76, 38, 0.2);
+}
+
+/* css card */
+article .article_card[data-title="css"] {
+  border-top: 2px solid rgb(21, 115, 182);
+  border-bottom: 2px solid rgb(21, 115, 182);
+}
+article .article_card[data-title="css"] .desc-title-img_wrapper {
+  background: rgba(21, 115, 182, 0.5);
+  outline: 7px solid rgba(21, 115, 182, 0.2);
+}
+
+/* javascript */
+article .article_card[data-title="javascript"] {
+  border-top: 2px solid rgb(247, 222, 30);
+  border-bottom: 2px solid rgb(247, 222, 30);
+}
+article .article_card[data-title="javascript"] .desc-title-img_wrapper {
+  background: rgba(247, 222, 30, 0.5);
+  outline: 7px solid rgba(247, 222, 30, 0.2);
+}
+
+
+
+article .desc-title-img_wrapper img {
+  width: 23px;
+  height: 23px;
+}

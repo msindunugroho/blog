@@ -3,7 +3,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  background: var(--grey-clr-1);
+  background: var(--grey-clr-2);
   z-index: 10;
 }
 nav .nav_container {
@@ -80,7 +80,6 @@ nav .nav_action {
   z-index: -10;
   list-style: none;
   border-radius: 5px;
-  background: var(--grey-clr-1);
   padding: 5px;
   transition: var(--transition);
 }
