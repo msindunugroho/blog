@@ -48,6 +48,7 @@ nav .nav_bar .menu_btn {
 nav .menu_btn span {
   width: 25px;
   height: 3px;
+  border-radius: 5px;
   transition: var(--transition);
   background: var(--blue-clr-3);
 }
@@ -69,6 +70,9 @@ nav .nav_bar .nav_link {
 }
 /* nav action  */
 nav .nav_action {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   position: absolute;
   top: 65px;
   right: 25px;
@@ -88,7 +92,7 @@ nav .nav_action.show_menu {
   z-index: 10;
 }
 nav .nav_action li:last-child {
-  margin: 8px 5px 5px 5px;
+  margin: 8px 0px;
 }
 .nav_action li a {
   width: 100%;
@@ -101,11 +105,11 @@ nav .nav_action li:last-child {
   font-weight: 600;
   padding: 5px;
 }
-.nav_action li:last-child a {
-  background: rgba(0, 200, 255, 0.15);
+/* .nav_action li:last-child a {
   border-radius: 5px;
+  background: rgba(0, 200, 255, 0.15);
   outline: 1.5px solid var(--blue-clr-1);
-}
+} */
 
 /* tablet */
 @media screen and (min-width: 426px) {

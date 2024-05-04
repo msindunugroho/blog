@@ -1,0 +1,60 @@
+  /* 
+  ============ >
+  btn 1 
+  ============ >
+  */
+  .btn-1,
+  .btn-2 {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    position: relative;
+    border-radius: 5px;
+  }
+  .btn-1::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: -2px;
+    bottom: -2px;
+    clip-path: polygon(0% 0%, 90.5% 0%, 100% 37.5%, 100% 100%, 0% 100%);
+    width: 102%;
+    height: 110%;
+  }
+.blue-outline {
+  background: var(--blue-clr-3);
+  outline: 1px solid var(--blue-clr-3);
+  color: var(--blue-clr-3);
+  box-shadow: var(--blue-shadow);
+}
+.grey-outline {
+  background: var(--grey-clr-1);
+  outline: 1px solid var(--grey-clr-1);
+  color: var(--grey-clr-1);
+  box-shadow: var(--blue-shadow);
+}
+.blue-bg::before {
+  background-color: var(--blue-clr-3);
+}
+.grey-bg::before {
+  background-color: var(--grey-clr-1);
+}
+
+
+  /* 
+  ============ >
+  btn 2 
+  ============ >
+  */
+  .btn-2 {
+    background: rgba(0, 200, 255, 0.15);
+    outline: 1.5px solid var(--blue-clr-1);
+    color:  var(--blue-clr-5);
+  }

@@ -1,33 +1,32 @@
 @import url('./components/navigation.css');
 @import url('./components/main.css');
+@import url('./components/button.css');
 @import url('./components/carousel.css');
 
 :root {
     /* font-family */
     --ff-poppins: font-family: "Poppins", sans-serif;
-    
-    /* font-size */
-    /* laptop */
-
-    --fs-h1-l: ;
-    --fs-p-t:15px;
-    --fs-p-m:13px;
-
     /* color */
     /* grey */
-    --grey-clr-1: #222222;
+    --grey-clr-1: rgb(34, 34, 34);
     --grey-clr-2: #333333;
     --grey-clr-3: #444444;
     --grey-clr-4: #555555;
     --grey-clr-5: #bbbb;
     --grey-clr-6: #dddd;
     /* blue */
-    --blue-clr-1: #00c8ff; 
+    --blue-clr-1: rgb(0, 200, 255); 
     --blue-clr-2: #3bcff8; 
     --blue-clr-3: #61DAFB;  /*main*/
     --blue-clr-4: #a8eafc;
     --blue-clr-5: #cdf4ff;
+    /* transition */
     --transition: .3s ease-out;
+  /* 0px 26px 15px -10px rgba(0, 0, 0, 0.15) */
+    /* boxshadow */
+    --blue-shadow:0px 26px 15px -10px rgba(0, 200, 255, 0.15);
+    --grey-shadow:0px 26px 15px -10px rgba(34, 34, 34, 0.15);
+    --light-shadow: 0px 26px 15px -10px rgba(255, 255, 255, 0.15);
 }
 
 *, *:before, *:after {

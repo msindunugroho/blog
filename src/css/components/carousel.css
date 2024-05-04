@@ -29,3 +29,10 @@ section#carousel .carousel_desc {
     flex-direction: column;
     gap: 10px;
 }
+section#carousel .carousel_desc .carousel_action {
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
