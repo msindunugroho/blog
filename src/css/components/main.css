@@ -1,6 +1,7 @@
 main {
     margin-top: 60px;
     background: var(--grey-clr-1);
+    padding-bottom: 1000px;
 }
 
 @media screen and (max-width: 425px) {
@@ -8,8 +9,8 @@ main {
         padding: 30px 20px;
     }
 }
-@media  screen and (min-width: 426px) {
+@media  screen and (min-width: 769px) {
     main section#carousel, article {
-        padding: 60px 30px;
+        padding: 100px;
     }
 }

@@ -18,6 +18,7 @@ article .container .articles {
   height: 300px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 300px;
   gap: 5vw;
 }
 article .articles .article_card{
@@ -91,6 +92,60 @@ article .article_card[data-title="javascript"] .desc-title-img_wrapper {
   outline: 7px solid rgba(247, 222, 30, 0.2);
 }
 
+/* git */
+article .article_card[data-title="git"] {
+  border-top: 2px solid #fad7cf;
+  border-bottom: 2px solid #fad7cf;
+}
+article .article_card[data-title="git"] .desc-title-img_wrapper {
+  background: rgba(250, 215, 207, 0.5);
+  outline: 7px solid rgba(250, 215, 207, 0.2);
+}
+/* github */
+article .article_card[data-title="github"] {
+  border-top: 2px solid #adadad;
+  border-bottom: 2px solid #adadad;
+}
+article .article_card[data-title="github"] .desc-title-img_wrapper {
+  background: rgba(173, 173, 173, 0.5);
+  outline: 7px solid rgba(173, 173, 173, 0.2);
+}
+/* sass */
+article .article_card[data-title="sass"] {
+  border-top: 2px solid #cd6799;
+  border-bottom: 2px solid #cd6799;
+}
+article .article_card[data-title="sass"] .desc-title-img_wrapper {
+  background: rgba(205, 103, 152, 0.5);
+  outline: 7px solid rgba(205, 103, 152, 0.2);
+}
+/* nodejs */
+article .article_card[data-title="nodejs"] {
+  border-top: 2px solid #058d0c;
+  border-bottom: 2px solid #058d0c;
+}
+article .article_card[data-title="nodejs"] .desc-title-img_wrapper {
+  background: rgba(5, 141, 12, 0.5);
+  outline: 7px solid rgba(5, 141, 12, 0.2);
+}
+/* react */
+article .article_card[data-title="react"] {
+  border-top: 2px solid #00d8ff;
+  border-bottom: 2px solid #00d8ff;
+}
+article .article_card[data-title="react"] .desc-title-img_wrapper {
+  background: rgba(0, 217, 255, 0.5);
+  outline: 7px solid rgba(0, 217, 255, 0.2);
+}
+/* webpack */
+article .article_card[data-title="webpack"] {
+  border-top: 2px solid #d2f7fd;
+  border-bottom: 2px solid #d2f7fd;
+}
+article .article_card[data-title="webpack"] .desc-title-img_wrapper {
+  background: rgba(210, 247, 253, 0.5);
+  outline: 7px solid rgba(210, 247, 253, 0.2);
+}
 
 
 article .desc-title-img_wrapper img {
