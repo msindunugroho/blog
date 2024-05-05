@@ -3,6 +3,7 @@
 @import url('./components/button.css');
 @import url('./components/carousel.css');
 @import url('./components/articles.css');
+@import url('./components/footer.css');
 
 :root {
     /* font-family */
@@ -17,7 +18,7 @@
     --grey-clr-5: #bbbb;
     --grey-clr-6: #dddd;
     /* blue */
-    --blue-clr-1: rgb(0, 200, 255); 
+    --blue-clr-1: #00c8ff; 
     --blue-clr-2: #3bcff8; 
     --blue-clr-3: #61DAFB;  /*main*/
     --blue-clr-4: #a8eafc;
@@ -40,6 +41,7 @@
 }
 body {
   font-family: var(--ff-poppins);
+  background: var(--grey-clr-1);
 }
 .hidden {
   display: none;

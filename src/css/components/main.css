@@ -1,21 +1,17 @@
 main {
     margin-top: 60px;
-    background: var(--grey-clr-1);
-    padding-bottom: 1000px;
+}
+main section#carousel, article, footer .container {
+    padding: 60px 20px;
 }
 
-@media screen and (max-width: 425px) {
-    main section#carousel, article {
-        padding: 30px 20px;
-    }
-}
 @media  screen and (min-width: 426px) {
-    main section#carousel, article {
-        padding: 40px;
+    main section#carousel, article, footer .container {
+        padding: 80px 40px;
     }
 }
 @media  screen and (min-width: 769px) {
-    main section#carousel, article {
-        padding: 100px;
+    main section#carousel, article, footer .container {
+        padding: 120px 60px;
     }
 }
